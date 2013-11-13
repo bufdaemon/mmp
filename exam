@@ -1,0 +1,22 @@
+/*  
+user input with variable int name age
+*/
+
+#include <stdio.h>
+int main ()
+
+{
+
+int exam;
+
+printf("Enter passing rate of exam\n");
+scanf("%d", &exam);
+
+if ( exam > 300){
+	printf("You passed the exam ;)\n");
+}
+else if (exam < 300){
+	printf("SORRY.. You failed the exam :(\n");
+}
+return 0;
+}
